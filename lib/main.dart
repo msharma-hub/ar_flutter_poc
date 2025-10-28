@@ -1,4 +1,5 @@
 import 'package:ar_distance_tracker/ar_distance_measurement.dart';
+import 'package:ar_distance_tracker/ar_distance_measurement_ios.dart';
 import 'package:ar_distance_tracker/objects_on_planes.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
      // home: const MeasureObjectAR(),
-      home: const ARDistanceMeasure(),
+      home: const DistanceTrackingPage(),
     );
   }
 }
